@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "img": "https://site.kiu.org/website/images/stories/c_quran.png",
+        "title": "Quran Studies",
+        "duration": "4 month",
+        "cost": " BDT 15000"
+    },
+    {
+        "id": 2,
+        "img": "https://www.pinclipart.com/picdir/middle/575-5754158_birthday-clipart-free-printable.png",
+        "title": "Islamic Sura",
+        "duration": "1 month",
+        "cost": "BDT 5000"
+    },
+    {
+        "id": 3,
+        "img": "https://image.shutterstock.com/image-photo/muslim-man-white-session-lift-260nw-1495699907.jpg",
+        "title": "Islamic Duyah",
+        "duration": "1 month",
+        "cost": "BDT 4000"
+    },
+    {
+        "id": 4,
+        "img": "https://play-lh.googleusercontent.com/Zpx2O7sjPJiOADh8dz1_qrNiRWs8muUigaZFosDuPiDyi7DlcJ46EubCGTcnctFBADk=w412-h220-rw",
+        "title": "Hadis Studies",
+        "duration": "4 month",
+        "cost": 11000
+    },
+    {
+        "id": 5,
+        "img": "https://i0.wp.com/madrasatelquran.com/wp-content/uploads/2019/01/Prayer-Salah-in-Islam.jpg?fit=990%2C600&ssl=1",
+        "title": "Salat Studies",
+        "duration": "10 days",
+        "cost": 3000
+    },
+    {
+        "id": 6,
+        "img": "https://c8.alamy.com/comp/F4W4C8/high-quality-muslim-mens-cartoon-character-sacrifice-goat-in-celebration-F4W4C8.jpg",
+        "title": "Kurbani service",
+        "duration": "For Eid",
+        "cost": "BDT 1000"
+    },
+    {
+        "id": 7,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKkuUjMVVuuue_8obzM8oYpKoq8P5na7o4kEpT6ki25eTyigaiaj3jyr34-pzgz9zWjL4&usqp=CAU",
+        "title": "Community service",
+        "duration": "month/per",
+        "cost": "BDT 5000"
+    },
+    {
+        "id": 8,
+        "img": "https://www.tradigital.de/stories/products-hadith-encyclopaedia-start_thumb.png",
+        "title": "Books",
+        "duration": "5-7 days",
+        "cost": 500
+    },
+    {
+        "id": 9,
+        "img": "https://i.pinimg.com/originals/30/f7/44/30f7444e104a7e309e899621645646c5.jpg",
+        "title": "Sunnah Studies",
+        "duration": "2 month",
+        "cost": 15000
+    }
+]
