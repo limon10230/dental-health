@@ -1,16 +1,19 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
+import useFirbase from '../../hooks/useFirebase';
 import('./Header.css')
 
 const Header = () => {
+    const { user, logOut } = useAuth()
     return (
         <div className="header-container ">
-            <div>
+            <div collapseOnSelect expand="lg">
 
                 <Container >
                     <Row>
-                        <Col><h2 style={{ color: 'goldenrod', fontSize: '40px' }}>Learn Quran</h2></Col>
+                        <Col><h2 style={{ color: 'gold', fontSize: '40px' }}>Dental Care</h2></Col>
                         <Col ><nav >
 
                             <NavLink className="navlink"
@@ -26,7 +29,7 @@ const Header = () => {
                                     color: "lightyellow",
 
                                 }}
-                                to="/about">About us</NavLink>
+                                to="/about">About</NavLink>
                             <NavLink className="navlink"
                                 activeStyle={{
                                     fontWeight: "bold",
@@ -44,13 +47,27 @@ const Header = () => {
                                     fontWeight: "bold",
                                     color: "lightyellow"
                                 }}
-                                to="/books">Books</NavLink>
+                                to="/dental">Dental Team</NavLink>
                             <NavLink className="navlink"
                                 activeStyle={{
                                     fontWeight: "bold",
                                     color: "lightyellow"
                                 }}
                                 to="/contact">Contact Us</NavLink>
+                            <span style={{ color: "white" }}> {user.displayName}</span>
+
+                            {
+                                user.email ?
+                                    <button onClick={logOut}>Sign Out</button>
+                                    :
+
+                                    <NavLink className="navlink"
+                                        activeStyle={{
+                                            fontWeight: "bold",
+                                            color: "lightyellow"
+                                        }}
+                                        to="/signin">Sign In</NavLink>
+                            }
 
                         </nav>
                         </Col>
@@ -62,6 +79,10 @@ const Header = () => {
 
 
         </div>
+
+
+
+
     );
 };
 

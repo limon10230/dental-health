@@ -10,7 +10,7 @@ const Home = (props) => {
             <Container>
                 <Row>
                     <Col sm={8}> <Welcome></Welcome></Col>
-                    <Col sm={4}><img className="img" src={'https://static.vecteezy.com/system/resources/previews/002/144/069/original/kids-family-learn-to-read-quran-islamic-holy-book-in-ramadan-cartoon-vector.jpg'} alt="" /></Col>
+                    <Col sm={4}><img className="img" src={'https://forsterdental.com.au/wp-content/uploads/2017/11/When-Is-It-A-Dental-Emergency-Dentist-Forster.jpg'} alt="" /></Col>
                 </Row>
 
             </Container>
