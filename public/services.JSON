@@ -3,36 +3,36 @@
         "id": 1,
         "img": "https://www.voylesfamilydental.com/wp-content/uploads/dental-fillings.jpg",
         "title": "Dental Fillings",
-        "cost": " BDT 7000"
+        "discription": " To treat a cavity your dentist will remove the decayed portion of the tooth and then fill the area on the tooth where the decayed material was removed."
     },
     {
         "id": 2,
         "img": "https://myelementdental.com/wp-content/uploads/2020/04/family-dentist-orthodontist-element-dental-orthodontics-north-houston-east-texas-TX-services-braces-orthodontics.jpg",
         "title": "Orthodontics",
-        "cost": "BDT 5000"
+        "discription": "Orthodontics is a branch of dentistry that treats malocclusion, a condition in which the teeth."
     },
     {
         "id": 3,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz5H_1RBo0CuM_N3RiKTyU6N7eMcfoURLlEGWdb3_KLMq8aaXT5W9ATvVC2M2qA2p2ZLQ&usqp=CAU",
         "title": "Tooth Extraction",
-        "cost": "BDT 4000"
+        "discription": "Although permanent teeth were meant to last a lifetime, there are a number of reasons why tooth extraction may be needed. A very common reason involves a tooth that is too badly damaged"
     },
     {
         "id": 4,
         "img": "https://balajidentalcentre.com/wp-content/uploads/2018/12/root-canal-1.png",
         "title": "Root Canal Treatment",
-        "cost": 11000
+        "discription": "Root canal treatment (endodontics) is a dental procedure used to treat infection at the centre of a tooth.."
     },
     {
         "id": 5,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR6LugnbwP8U3lnlSb2-v_OQUGHpO4bpdYTA&usqp=CAU",
         "title": "Teeth Whitening",
-        "cost": 3000
+        "discription": "Everyone notices a bright, white, glowing smile. And everyone notices how confident you feel when you have that beautiful smile."
     },
     {
         "id": 6,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU48ZJmFTyU7OUO7sSuUv4JkrkmI1440d8-g&usqp=CAU",
-        "title": "Routine Dental Exam",
-        "cost": "BDT 1000"
+        "title": "Cosmetic dentistry",
+        "discription": "See what braces, crowns, veneers, teeth whitening, bridges, implants, gum reshaping -- or even a complete dental makeover -- can do for your smile."
     }
 ]

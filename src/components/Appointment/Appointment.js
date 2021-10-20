@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
+import("./Appointment.css")
 
 
 
@@ -29,12 +30,12 @@ const Appointment = () => {
 
 
     return (
-        <div>
+        <div className="appointment">
             <h2>This is Service Details
             </h2>
             <img src={singleService?.img} alt="" />
             <h4> Service Name: {singleService?.title}</h4>
-            <h4>Cost: {singleService?.cost}</h4>
+            <h4> {singleService?.discription}</h4>
         </div>
     );
 };
