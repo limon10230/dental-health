@@ -10,7 +10,7 @@ In the project how can you care your dental and improve your dental.
 
 we have popular dentist .they are tritment our pasent very carefully.
 
-## Runs the app in the development mode.\
+## Runs the app in the development mode.
 Open [Github Repo Link](https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-limon10230/edit/main/README.md) to view it in the browser.
 
 
